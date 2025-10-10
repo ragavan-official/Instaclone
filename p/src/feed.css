@@ -1,0 +1,182 @@
+/* Container */
+.feed-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto; /* <-- Centers the whole feed container */
+}
+
+/* Stories Row */
+.stories {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+  overflow-x: auto;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-width: 70px;
+  gap: 0.3rem;
+  padding-top: 1rem;
+}
+
+/* Gradient border wrapper */
+.story-ring {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 3px;
+  background: linear-gradient(
+    135deg,
+    #feda75,
+    #fa7e1e,
+    #d62976,
+    #962fbf,
+    #4f5bd5
+  );
+}
+
+/* Profile Image */
+.storyimg {
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  object-fit: cover;
+  background: #fff;
+}
+
+/* Post Card */
+.post-card {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.post-card .d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Image Centering Container */
+.imgdiv {
+  display: flex;
+  justify-content: center; /* <-- Centers the image horizontally inside the post */
+  align-content: center;
+}
+
+/* Post Image */
+.postimage {
+  width: 70%;
+  height: 20rem;
+  object-fit: cover;
+  margin: 0rem 0rem 0rem 4rem;
+  border-radius: 8px;
+  border-top: 1px solid #eee;
+}
+
+/* Post buttons */
+.post-card button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.post-card button i {
+  font-size: 1.2rem;
+}
+
+/* Scrollbar for stories row */
+.stories::-webkit-scrollbar {
+  height: 6px;
+}
+
+.stories::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+.stories::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.bi {
+  height: 5rem;
+}
+
+/* ============================= */
+/* 📌 Story Viewer Page (Viewstory.jsx) */
+/* ============================= */
+
+.story-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.story-username {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.story-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+  background: #000;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.story-img {
+  height: 32rem;
+  max-width: 20rem;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.story-arrow {
+  font-size: 3rem;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
+  user-select: none;
+}
+
+.story-arrow:hover {
+  transform: scale(1.15);
+  color: #f50057; /* Instagram pink */
+}
+
+.loading-text {
+  font-size: 1.5rem;
+  margin-top: 5rem;
+  color: #555;
+}

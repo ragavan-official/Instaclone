@@ -1,0 +1,28 @@
+.side {
+  width: 20%;
+  background-color: white;
+  border-right: 1px solid rgb(241, 237, 237);
+
+  position: fixed;  /* fix sidebar */
+  top: 0;
+  left: 0;
+  height: 100vh;    /* full height */
+}
+
+.suggest {
+  width: 30%;
+  background-color: white;
+
+  position: fixed;  /* fix suggestion panel */
+  top: 0;
+  right: 0;
+  height: 100vh;
+}
+
+.w-50 {
+  padding-left: 2rem;
+  border-left: 1px solid rgb(241, 237, 237);
+
+  margin-left: 20%;  /* push content right of side panel */
+  margin-right: 30%; /* avoid overlap with suggest panel */
+}
