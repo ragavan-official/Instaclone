@@ -1,0 +1,197 @@
+{
+  "reels": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "profilePic": "https://randomuser.me/api/portraits/men/1.jpg",
+      "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "caption": "Morning workout routine 💪",
+      "likes": 1240,
+      "comments": [
+        { "id": 1, "username": "emma", "text": "So motivating!" },
+        { "id": 2, "username": "lisa", "text": "🔥🔥🔥" }
+      ]
+    },
+    {
+      "id": 2,
+      "username": "emma_smith",
+      "profilePic": "https://randomuser.me/api/portraits/women/2.jpg",
+      "videoUrl": "https://www.w3schools.com/html/movie.mp4",
+      "caption": "My new dance moves 💃✨",
+      "likes": 980,
+      "comments": [
+        { "id": 1, "username": "john", "text": "Awesome energy!" }
+      ]
+    },
+    {
+      "id": 3,
+      "username": "alex_park",
+      "profilePic": "https://randomuser.me/api/portraits/men/3.jpg",
+      "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "caption": "Skateboarding downtown 🛹",
+      "likes": 720,
+      "comments": []
+    },
+    {
+      "id": 4,
+      "username": "olivia_r",
+      "profilePic": "https://randomuser.me/api/portraits/women/4.jpg",
+      "videoUrl": "https://www.w3schools.com/html/movie.mp4",
+      "caption": "Beach sunset vibes 🌅",
+      "likes": 1500,
+      "comments": [
+        { "id": 1, "username": "mark", "text": "Beautiful view!" }
+      ]
+    },
+    {
+      "id": 5,
+      "username": "mark_twain",
+      "profilePic": "https://randomuser.me/api/portraits/men/5.jpg",
+      "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "caption": "Nature trails 🌳",
+      "likes": 500,
+      "comments": []
+    },
+    {
+      "id": 6,
+      "username": "sophia_l",
+      "profilePic": "https://randomuser.me/api/portraits/women/6.jpg",
+      "videoUrl": "https://www.w3schools.com/html/movie.mp4",
+      "caption": "City lights at night 🌃",
+      "likes": 1250,
+      "comments": []
+    },
+    {
+      "id": 7,
+      "username": "daniel_r",
+      "profilePic": "https://randomuser.me/api/portraits/men/7.jpg",
+      "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "caption": "Epic guitar solo 🎸",
+      "likes": 900,
+      "comments": [
+        { "id": 1, "username": "alice", "text": "You rock!" }
+      ]
+    },
+    {
+      "id": 8,
+      "username": "mia_k",
+      "profilePic": "https://randomuser.me/api/portraits/women/8.jpg",
+      "videoUrl": "https://www.w3schools.com/html/movie.mp4",
+      "caption": "Cooking my favorite pasta 🍝",
+      "likes": 630,
+      "comments": []
+    },
+    {
+      "id": 9,
+      "username": "ryan_g",
+      "profilePic": "https://randomuser.me/api/portraits/men/9.jpg",
+      "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "caption": "Running through the park 🏃‍♂️",
+      "likes": 710,
+      "comments": []
+    },
+    {
+      "id": 10,
+      "username": "natalie_s",
+      "profilePic": "https://randomuser.me/api/portraits/women/10.jpg",
+      "videoUrl": "https://www.w3schools.com/html/movie.mp4",
+      "caption": "Trying a new smoothie recipe 🍓",
+      "likes": 850,
+      "comments": []
+    },
+    {
+      "id": 11,
+      "username": "chris_b",
+      "profilePic": "https://randomuser.me/api/portraits/men/11.jpg",
+      "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "caption": "Tech unboxing 💻",
+      "likes": 940,
+      "comments": [
+        { "id": 1, "username": "olivia", "text": "So satisfying!" }
+      ]
+    },
+    {
+      "id": 12,
+      "username": "lily_t",
+      "profilePic": "https://randomuser.me/api/portraits/women/12.jpg",
+      "videoUrl": "https://www.w3schools.com/html/movie.mp4",
+      "caption": "Makeup transformation 💄",
+      "likes": 1300,
+      "comments": []
+    },
+    {
+      "id": 13,
+      "username": "jackson_w",
+      "profilePic": "https://randomuser.me/api/portraits/men/13.jpg",
+      "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "caption": "Street basketball 🏀",
+      "likes": 820,
+      "comments": []
+    },
+    {
+      "id": 14,
+      "username": "ella_m",
+      "profilePic": "https://randomuser.me/api/portraits/women/14.jpg",
+      "videoUrl": "https://www.w3schools.com/html/movie.mp4",
+      "caption": "Morning yoga flow 🧘‍♀️",
+      "likes": 1100,
+      "comments": [
+        { "id": 1, "username": "sophia", "text": "Namaste!" }
+      ]
+    },
+    {
+      "id": 15,
+      "username": "kevin_p",
+      "profilePic": "https://randomuser.me/api/portraits/men/15.jpg",
+      "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "caption": "Road trip adventures 🚗",
+      "likes": 990,
+      "comments": []
+    },
+    {
+      "id": 16,
+      "username": "grace_h",
+      "profilePic": "https://randomuser.me/api/portraits/women/16.jpg",
+      "videoUrl": "https://www.w3schools.com/html/movie.mp4",
+      "caption": "Reading by the lake 📚",
+      "likes": 780,
+      "comments": []
+    },
+    {
+      "id": 17,
+      "username": "leo_d",
+      "profilePic": "https://randomuser.me/api/portraits/men/17.jpg",
+      "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "caption": "Drone shot of mountains 🏔️",
+      "likes": 1550,
+      "comments": []
+    },
+    {
+      "id": 18,
+      "username": "ava_w",
+      "profilePic": "https://randomuser.me/api/portraits/women/18.jpg",
+      "videoUrl": "https://www.w3schools.com/html/movie.mp4",
+      "caption": "Painting something new 🎨",
+      "likes": 670,
+      "comments": []
+    },
+    {
+      "id": 19,
+      "username": "ben_t",
+      "profilePic": "https://randomuser.me/api/portraits/men/19.jpg",
+      "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "caption": "Trying out parkour 🧗‍♂️",
+      "likes": 890,
+      "comments": []
+    },
+    {
+      "id": 20,
+      "username": "zoe_k",
+      "profilePic": "https://randomuser.me/api/portraits/women/20.jpg",
+      "videoUrl": "https://www.w3schools.com/html/movie.mp4",
+      "caption": "Weekend baking time 🍰",
+      "likes": 1020,
+      "comments": []
+    }
+  ]
+}
